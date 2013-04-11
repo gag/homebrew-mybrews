@@ -1,4 +1,4 @@
-mybrews
-=======
+My Brews
+========
 
-My own recipes
+This repo contains my homebrew recipes.
