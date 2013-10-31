@@ -22,7 +22,7 @@ class OpencvLibstdc < Formula
   depends_on 'qt'      => :optional
   depends_on :libpng
 
-  conflicts_with 'Opencv'
+  conflicts_with 'opencv'
 
   # Can also depend on ffmpeg, but this pulls in a lot of extra stuff that
   # you don't need unless you're doing video analysis, and some of it isn't

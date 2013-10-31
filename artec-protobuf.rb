@@ -7,6 +7,7 @@ class ArtecProtobuf < Formula
 
   option :universal
   option 'with-c++11', 'Compile using Clang, std=c++11 and stdlib=libc++' if MacOS.version >= :lion
+  conflicts_with 'protobuf'
 
   fails_with :llvm do
     build 2334

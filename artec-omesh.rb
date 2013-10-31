@@ -10,6 +10,7 @@ class ArtecOmesh < Formula
   depends_on 'cmake' => :build
   depends_on 'qt'
   depends_on 'glew'
+  conflicts_with 'omesh'
 
   option 'with-c++11', 'Compile using Clang, std=c++11 and stdlib=libc++' if MacOS.version >= :lion
 

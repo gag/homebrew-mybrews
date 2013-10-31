@@ -32,6 +32,7 @@ class ArtecBoost < Formula
 
   depends_on UniversalPython.new if needs_universal_python?
   depends_on "icu4c" if build.include? "with-icu"
+  conflicts_with 'boost'
 
   fails_with :llvm do
     build 2335
