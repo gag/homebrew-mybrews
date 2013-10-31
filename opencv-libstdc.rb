@@ -1,6 +1,6 @@
 require 'formula'
 
-class Opencvlibstdc < Formula
+class OpencvLibstdc < Formula
   homepage 'http://opencv.org/'
   url 'http://downloads.sourceforge.net/project/opencvlibrary/opencv-unix/2.4.6.1/opencv-2.4.6.1.tar.gz'
   sha1 'e015bd67218844b38daf3cea8aab505b592a66c0'
